@@ -54,7 +54,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	return player.points.gte(new omeganum("50"))
+	return false
 }
 
 
