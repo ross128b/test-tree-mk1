@@ -20,8 +20,6 @@ let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
 		- Added things.<br>
 		- Added stuff.`
-<h3>v0.0.1</h3><br>
--add a name for this tree and the first layer.
 
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
