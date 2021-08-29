@@ -1,8 +1,8 @@
 ﻿let modInfo = {
-	name: "???",
+	name: "test tree",
 	id: "???",
-	author: "???",
-	pointsName: "???",
+	author: "ross128b",
+	pointsName: "test point1",
 	discordName: "",
 	discordLink: "",
 	initialStartPoints: new ExpantaNum (0), // Used for hard resets and new players
@@ -12,14 +12,17 @@
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "",
+	num: "0.0.1",
+	name: "name update",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
 		- Added things.<br>
 		- Added stuff.`
+<h4>v0.0.1</h4><br>
+-add a name for this tree and the first layer.
+
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
 
@@ -53,7 +56,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	return false
+	return player.points.gte(new omeganum("50"))
 }
 
 
