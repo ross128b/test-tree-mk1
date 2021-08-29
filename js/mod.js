@@ -20,7 +20,7 @@ let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
 		- Added things.<br>
 		- Added stuff.`
-<h4>v0.0.1</h4><br>
+<h3>v0.0.1</h3><br>
 -add a name for this tree and the first layer.
 
 
