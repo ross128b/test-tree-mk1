@@ -2,7 +2,7 @@ let modInfo = {
 	name: "test tree",
 	id: "???",
 	author: "ross128b",
-	pointsName: "???",
+	pointsName: "test point1",
 	discordName: "",
 	discordLink: "",
 	initialStartPoints: new ExpantaNum (0), // Used for hard resets and new players
@@ -20,6 +20,8 @@ let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
 		- Added things.<br>
 		- Added stuff.`
+        <h3>v0.0.1</h3><br>
+                - Added the name of something.`
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
 
