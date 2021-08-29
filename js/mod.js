@@ -1,8 +1,8 @@
-﻿let modInfo = {
-	name: "test tree",
+let modInfo = {
+	name: "???",
 	id: "???",
-	author: "ross128b",
-	pointsName: "test point1",
+	author: "???",
+	pointsName: "???",
 	discordName: "",
 	discordLink: "",
 	initialStartPoints: new ExpantaNum (0), // Used for hard resets and new players
@@ -12,15 +12,14 @@
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0.1",
-	name: "name update",
+	num: "0.0",
+	name: "",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
 		- Added things.<br>
 		- Added stuff.`
-
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
 
