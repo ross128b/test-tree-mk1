@@ -8,7 +8,7 @@ addLayer("layer1", {
 	points: new ExpantaNum(0),
     }},
     color: "#4BDC13",
-    requires: new omeganum(0),
+    requires: new omeganum(10),
     resource: "testPoint2", // Name of prestige currency
     baseResource:"testPoint1",
     baseAmount() {return player.points}, // Get the current amount of baseResource
