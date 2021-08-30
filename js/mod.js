@@ -1,4 +1,4 @@
-let modInfo = {
+﻿let modInfo = {
 	name: "testTree",
 	id: "testTree",
 	author: "ross128b",
@@ -42,6 +42,8 @@ function canGenPoints(){
 function getPointGen() {
 	if(!canGenPoints()) return new ExpantaNum(0)
 	let gain = new ExpantaNum(1)
+	if(hasUpgrade(this.layer, 12))gain =gain.add(1)
+	if(hasUpgrade(this.layer, 13))gain = gain.times(upgradeEffect("layer1",13))
 	return gain
 }
 
