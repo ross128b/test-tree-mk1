@@ -1,8 +1,8 @@
 let modInfo = {
-	name: "test tree",
-	id: "???",
+	name: "testTree",
+	id: testTree",
 	author: "ross128b",
-	pointsName: "test point1",
+	pointsName: "testPoint1",
 	discordName: "",
 	discordLink: "",
 	initialStartPoints: new ExpantaNum (0), // Used for hard resets and new players
